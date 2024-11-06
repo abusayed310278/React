@@ -48,17 +48,8 @@ button {
     font-size: 20px;
 }
 
-.add{
-    margin-right: 10px;
-}
-
-.sub{
+.delete{
     background-color: red;
-    margin-right: 10px;
-}
-
-.reset{
-
 }
 
 button.onlyStock {
