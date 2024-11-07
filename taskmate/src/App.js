@@ -1,15 +1,17 @@
-
+import { Header } from "./components/Header";
+import { Footer } from "./components/Footer";
+import { TaskList } from "./components/TaskList";
 import './App.css';
 
-export default function App(){
-    return(
-        <div>
-            <h1>hello</h1>
-            <p>
-                lorem
-            </p>
+function App() {
+
+    return (
+        <div className="App">
+            <Header />
+            <TaskList />
+            <Footer />
         </div>
-    )
+    );
 }
 
-
+export default App;
